@@ -20,7 +20,7 @@ import openai
 
 openai.api_key = '...'
 
-openai.base_url = "https://..."
+openai.base_url = ""http://localhost:8020/v1""
 openai.default_headers = {"x-foo": "true"}
 
 completion = openai.chat.completions.create(
