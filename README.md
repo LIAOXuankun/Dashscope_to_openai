@@ -18,9 +18,9 @@ python dashscope_to_openai.py
 ```
 import openai
 
-openai.api_key = '...'
+openai.api_key = "none"
 
-openai.base_url = ""http://localhost:8020/v1""
+openai.base_url = "http://localhost:8020/v1"
 openai.default_headers = {"x-foo": "true"}
 
 completion = openai.chat.completions.create(
